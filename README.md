@@ -6,10 +6,8 @@
 2) fill out the Hazus_State.mdb and syHazus.mdb with your own data
 3) download a Hazus state database to overwrite from https://msc.fema.gov/portal/resources/hazus
 3) open SQL Server Management Studio, connect to the Hazus server
-
-* user: hazuspuser
-* pw: Gohazusplus_02
-
+ * user: hazuspuser
+ * pw: Gohazusplus_02
 4) attach the newly downloaded state database.
 5) change the name of the database to the StateID used in your syHazus.mdb in the table syState
 6) point the script inputs at your MDB files and specify the database name as "state" and run

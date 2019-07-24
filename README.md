@@ -4,7 +4,7 @@
 
 1. download Hazus_State.mdb, syHazus.mdb and hazus-import-mdb.py
 2. fill out the Hazus_State.mdb and syHazus.mdb with your own data
-3. download a Hazus state database to overwrite from https://msc.fema.gov/portal/resources/hazus
+3. download a Hazus state database to overwrite from https://msc.fema.gov/portal/resources/hazus and extract it in the Hazus inventory folder (generally: C:\HazusData\Inventory)
     1. Tsunami only works with the following states: Alaska, American Samoa (TS only), California, Guam (TS only), Hawaii, Northern Mariana Islands (TS only), Oregon, Puerto Rico, Virgin Islands (TS only), Washington
 4. open SQL Server Management Studio, connect to the Hazus server
     1. user: hazuspuser

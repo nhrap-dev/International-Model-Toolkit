@@ -1,5 +1,9 @@
 # International-Model-Toolkit
 
+This repository contains two scripts that convert a Hazus inventory state to an international state or country: 1) hazus-import-os.py; and 2) hazus-import-esri.py.
+
+Both scripts function similarly; however, hazus-import-os.py is an open-source tool avilable if the ESRI tool (hazus-import-esri.py) requires extensions you don't have. The use notes below are for the open-source tool, use notes for the ESRI tool are included in the script. Please provide any feedback you have for the open-source to FEMA_NHRAP@fema.dhs.gov so we can continue to develop it.
+
 <h2>To use</h2>
 
 1. download Hazus_State.mdb, syHazus.mdb and hazus-import-mdb.py
@@ -15,7 +19,7 @@
  
 <h2>Notes</h2>
  
-* This script currently supports:
+* This script has been tested successfully for:
   - [x] earthquake
   - [x] tsunami
   - [ ] hurricane

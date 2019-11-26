@@ -24,7 +24,7 @@ Both scripts function similarly; however, hazus-import-os.py is an open-source t
   - [x] tsunami
   - [ ] hurricane
   - [ ] flood
-* once a state has been added to the syHazus database, it has to be removed before readding
+* once a state has been added to the syHazus database, it has to be removed before reading
  
 <h2>!!!Warning!!!</h2>
 Data overwritten will be irretrievable.  Please proceed with caution. We recommend backing up syHazus and the state database before running the script.  
